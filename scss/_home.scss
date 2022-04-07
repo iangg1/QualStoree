@@ -1,0 +1,32 @@
+ .container {
+  width: 100%;
+  padding: 1rem;
+  margin: 0 auto;
+  overflow: auto;
+  .titulosProductos {
+    height: 5rem;
+    color: #a6a09c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(53, 49, 49);
+  }
+  .fotosProductos {
+    display: block;
+    width: 92%;
+    max-height: 15rem;
+    max-width: 20rem;
+    margin: 0.7rem;
+    transition: all 1s;
+  }
+  .fotosProductos:hover {
+    transform: scale(1.1);
+  }
+  .card {
+    margin-bottom: 2rem;
+  }
+  .col {
+    display: flex;
+    justify-content: space-between;
+  }
+}

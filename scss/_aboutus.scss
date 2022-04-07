@@ -1,0 +1,25 @@
+.main__aboutUs {
+  padding-top: 8rem;
+  .container__aboutUs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #414141;
+    margin: 2rem;
+    padding-top: 3rem;
+    color: white;
+    .text_aboutUs {
+      margin: 2rem;
+      font-size: 30px;
+    }
+    .img_aboutUs {
+      max-width: 1000px;
+    }
+    .mapa {
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      max-width: 40%;
+    }
+  }
+}

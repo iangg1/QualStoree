@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #242424;
+  background-image: url("../assets/img/BackgroundHome.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Montserrat", sans-serif;
+  .main {
+    padding-top: 4.5rem;
+    overflow: auto;
+  }
+  div {
+    display: inline-block;
+  }
+  .textos {
+    font-weight: 100;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+  }
+}
